@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+/*body*/
+body {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    color: #5a5a5a;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft YaheiUI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+}
+
+/*navbar*/
+#navbar-collapse ul {
+    margin-top: 0;
+}
+
+/*carousel*/
+.carousel {
+    margin-bottom: 30px;
+}
+.carousel-inner .item {
+    height: 300px;
+}
+.carousel-inner img {
+    width: 100%;
+    min-height: 300px;
+}
+.carousel-caption {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+/*summary*/
+.summary {
+    padding: 0 3px;
+}
+
+/*divider*/
+.divider {
+    margin: 40px 0;
+}
+
+/*tab*/
+.tab-content {
+    padding: 30px 0;
+}
+.feature-heading {
+    color: #2a6496;
+    font-size: 34px;
+}
+.feature .text-muted {
+    font-size: 22px;
+}
+
+/*小屏幕（平板，大于等于768px）*/
+@media (min-width: 768px) {
+    .carousel {
+        margin-bottom: 60px;
+    }
+    .carousel-inner .item {
+        height: 500px;
+        background-color: #000;
+    }
+    .carousel-caption {
+        margin-bottom: 20px;
+        font-size: 20px;
+        line-height: 1.8;
+    }
+    .summary {
+        padding: 0 15px;
+    }
+}
+
+/*中等屏幕（桌面显示器，大于等于992px）*/
+@media (min-width: 992px) {
+    .feature-heading {
+        margin-top: 120px;
+    }
+}
+
+/*大屏幕（大桌面显示器，大于等于1200px）*/
+@media (min-width: 1200px) {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
